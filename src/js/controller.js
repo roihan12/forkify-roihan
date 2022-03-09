@@ -7,13 +7,9 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 /////////////////////////////////////////
-import 'core.js';
+import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import { async } from 'regenerator-runtime/runtime';
-
-// if (module.hot) {
-//   module.hot.accept();
-// }
+import { async } from 'regenerator-runtime';
 
 const controlRecipes = async function () {
   try {
